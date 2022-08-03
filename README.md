@@ -1,3 +1,3 @@
-# BUSCADOR DE CPF 
+# FRONT-END BUSCADOR DE CPF 
 
-#### Meu pirmeiro front-end de um projeto da empresa na qual estou rabalhando atualmente!
+#### Meu pirmeiro front-end de um projeto da empresa na qual estou trabalhando atualmente!
