@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.planodefundo {
+    background-image: url(fundo.jpg);
+}
+
+p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.card {
+    height: 35em;
+    width: 70em;
+    background-color: rgb(18, 43, 43);
+    border-radius: 15px;
+    display: flex;
+}
+
+.col-md-6 {
+    margin-left: -10em;
+    width: 100%;
+}
+
+.logo-cmf {
+    width: 20em;
+    margin-left: 28%;
+}
+
+.logo-cpl {
+    width: 20em;
+    margin-left: 28%;
+}
+
+.logo-ccs {
+    width: 15em;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+.text-section {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-text {
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 95px;
+    color: rgb(18, 43, 43);
+}
+
+.login-desc {
+    font-family: Verdana;
+    font-size: 12px;
+    color: rgb(18, 43, 43);
+}
+
+.section-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    flex-direction: column;
+    display: flex;
+    width: 45%;
+    margin-top: 8%;
+}
+
+.inp-email, .inp-senha {
+    margin-top: 2%;
+    padding: 5% 10%;
+    font-family: 'Verdana';
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(18, 43, 43);
+    color: #f5f5f5;
+
+}
+
+.inp-email, .inp-senha:focus {
+    outline: none;
+}
+
+.btn-entrar {
+    margin-top: 10%;
+    padding: 4%;
+    width: 60%;
+    font-family: 'Verdana';
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(18, 43, 43);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.btn-entrar:hover {
+    background-color: rgb(31, 71, 71);
+}
+
+.esqueci {
+    text-decoration: none;
+    text-align: right;
+    margin-top: 10px;
+    font-family: 'Verdana';
+    font-size: 80%;
+    color: rgb(31, 71, 71);
+}
+
+.criar-conta {
+    color: rgb(31, 71, 71);
+    margin-top: 10px;
+    font-family: Verdana;
+    font-size: 80%;
+}
+
+.rodape {
+    padding-top: 12%;
+    padding-right: 1%;
+    text-align: right;
+}
